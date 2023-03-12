@@ -14,7 +14,7 @@ class Student:
 		self.__age = value
 	
 student1= Student("student's_name","22S11AAAA","")
-student1.age = 18
+student1.__age = 18
 print(student1.name)
 print(student1.roll_no)
-print(student1.age)
+print(student1.__age)
