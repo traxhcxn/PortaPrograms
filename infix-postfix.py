@@ -1,6 +1,5 @@
 Operators = set(['+', '-', '*', '/', '(', ')', '^'])
 Priority = {'+':1, '-':1, '*':2, '/':2, '^':3}
- 
 def infixToPostfix(expression): 
     stack = []
     output = '' 
